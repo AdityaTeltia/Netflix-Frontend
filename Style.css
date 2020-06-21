@@ -4,9 +4,8 @@
     font-size: 30px;
     color:rgb(229,9,20) ;
     height: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 108px;
-    font-style: oblique;
+    font-family: Helvetica;
+    
     position: absolute;
     top: 8px;
     left: 20px;
@@ -22,9 +21,13 @@
 
 }
 #sign-in{
+    background-color: red;
     position: absolute;
     right: 20px;
     top: 20px;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
 }
 .try{
     background-color: red;
@@ -33,8 +36,48 @@
 h1{
     font-size: 50px;
     position: absolute;
-    top: 10%;
+    top: 50px;
     left: 20%; 
     color: white;
+
+}
+h2{
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 20%; 
+    color: white;
+    padding-bottom: 10px;
+
+}
+h3{
+    position: absolute;
+    top: 470px;
+    left: 20%; 
+    color: white;
+}
+a{
+    padding:10px 8px ;
+    /* padding-bottom: 2px;
+    padding-top: 2px; */
+    color: white;
+    text-decoration: none;
+}
+.email{
+    position: absolute;
+    width: 70%;
+    height: 30px;
+    top:570px ;
+    left: 20%;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    position:absolute;
+    top: 620px;
+    left:50%;
 
 }
